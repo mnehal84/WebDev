@@ -1,0 +1,170 @@
+/* Universal styling and resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+}
+
+.freelancer-platform {
+    width: 100%;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav-main a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="search"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Main content */
+.headline {
+    text-align: center;
+    padding: 40px 60px;
+    margin: auto; /* Centering horizontally */
+}
+
+.search-box {
+    margin-top: 20px;
+    display: flex;
+}
+
+.search-box input[type="search"] {
+    flex: 1;
+}
+
+.search-box button {
+    padding: 10px;
+    background-color: #ff8800;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.portfolio {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+article {
+    width: calc(33.333% - 20px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-main a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .headline {
+        padding: 30px 20px;
+    }
+
+    article {
+        width: 100%;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #FAF9F6;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  nav img {
+    height: 50px; /* Adjust the height as needed */
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .divider {
+    height: 30px;
+    width: 1px;
+    background-color: black;
+    margin: 0 15px;
+  }
+  
+  .user-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-wrapper{
+    display: flex;
+    align-items: center;
+  }
+  .user-actions a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+
+  .section-wrapper{
+    display: flex;
+    background-color: #FAF9F6;
+    justify-content:space-evenly;
+  }
+
+  .headline1{
+    height: 500px;
+  }
+  /* Add additional styling as needed */
+
+  
+  
+  
